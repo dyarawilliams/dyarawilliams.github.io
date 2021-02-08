@@ -2513,3 +2513,13 @@ input, select, textarea {
 		content: "";
 		top: 5px;
 	  }
+
+	  #exp-list {
+		  list-style: circle;
+	  }
+
+	  @media screen and (max-width: 425px){
+		  .timeline {
+			  margin: 50px 130px;
+		  }
+	  }
