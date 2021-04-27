@@ -2447,6 +2447,12 @@ input, select, textarea {
 
 	}
 
+	/* Skill Section */
+
+	.skill-title {
+		color: #EA8A95;
+	}
+
 	/* Timeline */
 
 	.timeline {
