@@ -2650,7 +2650,7 @@ body > article {
 	-ms-transition: all 0.3s ease;
 	transition: all 0.3s ease;
   }
-  #timeline .timeline-item .timeline-content h2 {
+  #timeline .timeline-item .timeline-content header {
 	padding: 15px;
 	background: #ea8a95;
 	color: #fff;
