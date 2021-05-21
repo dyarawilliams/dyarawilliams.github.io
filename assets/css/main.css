@@ -2595,9 +2595,8 @@ body > article {
 	width: 3px;
 	height: 100%;
 	background: #ea8a95;
-;
 	left: 50%;
-	top: 0;
+	top: 50px;
 	position: absolute;
   }
   #timeline:after {
@@ -2606,6 +2605,11 @@ body > article {
 	display: table;
 	width: 100%;
   }
+
+  #timeline h2 {
+    margin-bottom: 50px;
+  }
+
   #timeline .timeline-item {
 	margin-bottom: 50px;
 	position: relative;
@@ -2683,7 +2687,7 @@ body > article {
 	padding: 5px 15px;
 	text-decoration: none;
 	background: transparent;
-	border: 2px solid #f27c7c;
+	border: 2px solid #ea8a95;
 	color: #000000;
 	display: inline-block;
 	position: relative;
