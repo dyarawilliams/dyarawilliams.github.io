@@ -2586,26 +2586,26 @@ body > article {
   margin: 3em 0;
 }
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
   .timeline {
     padding-left: 1em;
   }
-  .timeline > .timeline-content {
+  .timeline .timeline-item > .timeline-content {
     width: calc(50% - 3rem);
     position: relative;
   }
-  .timeline > .timeline-content:nth-child(odd):before {
+  .timeline .timeline-item > .timeline-content:nth-child(odd):before {
     left: calc(100% + 1.25rem);
   }
-  .timeline > .timeline-content:nth-child(even) {
+  .timeline .timeline-item > .timeline-content:nth-child(even) {
     position: absolute;
     right: 0;
     margin-top: -8rem;
   }
-  .timeline > .timeline-content:nth-child(even):before {
+  .timeline .timeline-item > .timeline-content:nth-child(even):before {
     left: -4.75rem;
   }
-}
+} */
 
 .timeline-content {
   padding-bottom: 2em;
