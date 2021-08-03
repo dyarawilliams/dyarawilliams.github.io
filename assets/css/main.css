@@ -2587,7 +2587,7 @@ body > article {
 }
 
 .timeline-content {
-  padding-bottom: 2em;
+  padding: 1em 4em;
   text-align: left;
 }
 
