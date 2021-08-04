@@ -2573,7 +2573,11 @@ body > article {
   }
 }
 
-/* Skill Section */
+/* Skills Section */
+
+.skill {
+  margin: 3rem !important;
+}
 
 .skill-title {
   color: #ea8a95;
@@ -2581,8 +2585,7 @@ body > article {
 
 /* Timeline */
 #timeline {
-  margin: 3em 0;
-  padding: 3em 1em;
+  padding: 3rem 1rem;
   position: relative;
 }
 
@@ -2601,7 +2604,7 @@ body > article {
   border-bottom: 1px solid #bbb;
 }
 .content-company:before {
-  content: 'at ';
+  content: "at ";
 }
 
 .content-dates {
