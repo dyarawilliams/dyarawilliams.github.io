@@ -2577,10 +2577,19 @@ body > article {
 
 .skill {
   margin: 3rem !important;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(234,138,149, 0.4), rgba(234,138,149, 0.7)), url(images/bg-keyboard.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.skill-title {
-  color: #ea8a95;
+.skill > header > h2, .skill ul li, .skill-title{
+  color: black;
+  text-shadow: none;
+  font-weight: 600;
 }
 
 /* Timeline */
