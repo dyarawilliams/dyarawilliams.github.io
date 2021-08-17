@@ -143,7 +143,7 @@
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: #ea8a95;
 	}
 
 	i, em {
@@ -479,7 +479,7 @@
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: #ea8a95;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -789,7 +789,7 @@
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: #ea8a95;
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -888,6 +888,60 @@
 			font-size: 0.9em;
 		}
 	}
+
+	/* Skills Section */
+
+.skill {
+	margin-top: 3rem;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(rgba(234,138,149, 0.4), rgba(234,138,149, 0.7)), url(images/bg-keyboard.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	h3 {
+		color: black;
+		text-shadow: none;
+		font-weight: 600;
+	}
+
+	li {
+		list-style: none;
+		color: black;
+	}
+  }
+  
+  /* Timeline */
+  #timeline {
+	padding: 3rem 1rem;
+	position: relative;
+  }
+  
+  .timeline-content {
+	padding: 1em 4em;
+	text-align: left;
+  }
+  
+  .content-title {
+	font-weight: 600;
+	color: #ea8a95;
+  }
+  
+  .content-company {
+	font-style: italic;
+	border-bottom: 1px solid #bbb;
+  }
+  .content-company:before {
+	content: "at ";
+  }
+  
+  .content-dates {
+	font-size: 80%;
+	line-height: 1.5rem;
+	float: right;
+  }
 
 /* Copyright */
 
