@@ -129,7 +129,7 @@
 
 	a {
 		@include vendor('transition', 'color .2s ease-in-out');
-		color: #43B3E0;
+		color: #EA8A95;
 		text-decoration: underline;
 
 		&:hover {
@@ -479,7 +479,7 @@
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: #EA8A95;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -789,7 +789,7 @@
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: #EA8A95;
 		text-align: center;
 		position: fixed;
 		left: 0;
