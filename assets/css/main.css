@@ -1836,6 +1836,10 @@ body > article {
   color: inherit;
 }
 
+#top strong {
+  color: #EA8A95;
+}
+
 #contact footer {
   font-size: 0.9em;
 }
