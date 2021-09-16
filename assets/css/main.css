@@ -1959,11 +1959,11 @@ body > article {
   color: #ea8a95;
 }
 
-#work .skill {
-  margin-top: 3rem;
+#work #skill {
+  margin-top: 4rem;
 }
 
-#work .skill li {
+#work #skill li {
   list-style-type: none;
 }
 
