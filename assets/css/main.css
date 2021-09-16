@@ -1974,8 +1974,16 @@ body > article {
 }
 
 #timeline .timeline-content {
-  padding: 1em 4em;
+  padding: 1rem 4rem;
   text-align: left;
+}
+
+#timeline .timeline-content header {
+  margin: 1rem 0 !important;
+}
+
+#timeline .timeline-content ul {
+  margin-left: 1rem;
 }
 
 #timeline .content-title {

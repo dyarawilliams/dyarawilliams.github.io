@@ -1045,7 +1045,7 @@ body > article {
 
 		li {
 			list-style-type: none;
-		};
+		}
 	}
 }
 
@@ -1055,8 +1055,16 @@ body > article {
   position: relative;
 
   .timeline-content {
-    padding: 1em 4em;
+    padding: 1rem 4rem;
     text-align: left;
+
+    header {
+      margin: 1rem 0 !important;
+    }
+
+    ul {
+      margin-left: 1rem;
+    }
   }
 
   .content-title {
