@@ -1038,21 +1038,62 @@ body > article {
   }
 }
 
-#work {
+/* SKills */
 
-	#skill {
-		margin-top: 4rem;
+#skills {
+  // margin-top: 4rem;
+  width: 100%;
+  background: #ea8a95;
+  color: black;
+  text-shadow: none;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  
+  header {
+    margin-bottom: 2em;
+    font-size: 1.5em;
+  }
+  
+  .skills-tech {
+    width: calc(100vw - 19vw);
+    min-height: calc(100vh -50vh);
+    margin-left: 2.5rem;
+    border: 1px solid black;
+    overflow: hidden;
+    text-align: center;
 
-		li {
-			list-style-type: none;
-		}
-	}
+    .row {
+      width: 100%;
+      margin: 0 auto;
+      align-items: center;
+    }
+    
+    .col {
+      width: 20%;
+      padding: 0;
+    }
+
+    .skill-item {
+      padding-top: 1rem;
+      font-size: 1rem;
+
+      img {
+        width: 70px;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        background-color: transparent;
+      }
+    }
+  }
 }
 
 /* Timeline */
 #timeline {
   padding: 3rem 1rem;
   position: relative;
+  text-align: center;
 
   .timeline-content {
     padding: 1rem 4rem;
