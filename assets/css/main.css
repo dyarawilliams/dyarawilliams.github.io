@@ -1959,9 +1959,12 @@ body > article {
   color: #ea8a95;
 }
 
-/* SKills */
+/* SKills Section */
 #skills {
   width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
   background: #ea8a95;
   color: black;
   text-shadow: none;
@@ -1971,33 +1974,36 @@ body > article {
 }
 
 #skills header {
-  margin-bottom: 2em;
+  margin: 0 auto;
   font-size: 1.5em;
+}
+
+#skills header h3 {
+  padding: 1em;
 }
 
 #skills .skills-tech {
   width: calc(100vw - 19vw);
-  min-height: calc(100vh -50vh);
-  margin-left: 2.5rem;
-  border: 1px solid black;
+  min-height: 350px;
+  margin: 0 auto;
+  padding: 1.5em 2.5em;
   overflow: hidden;
   text-align: center;
 }
 
 #skills .skills-tech .row {
   width: 100%;
-  margin: 0 auto;
-  align-items: center;
-}
-
-#skills .skills-tech .col {
-  width: 20%;
-  padding: 0;
+  margin-top: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #skills .skills-tech .skill-item {
-  padding-top: 1rem;
-  font-size: 1rem;
+  margin: 0;
+  padding: 1.5em;
+  font-size: 1em;
+  border-bottom: 5px solid black;
 }
 
 #skills .skills-tech .skill-item img {
@@ -2006,6 +2012,10 @@ body > article {
   height: auto;
   margin: 0 auto;
   background-color: transparent;
+}
+
+#skills .skills-tech .skill-item p {
+  margin: 0;
 }
 
 /* Timeline */
