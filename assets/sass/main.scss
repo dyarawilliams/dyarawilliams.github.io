@@ -1038,63 +1038,46 @@ body > article {
   }
 }
 
-/* SKills Section */
+/* SKills */
 
 #skills {
   width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
   background: #ea8a95;
-  color: black;
-  text-shadow: none;
+  color: #333;;
   font-weight: bold;
   display: inline-block;
-  position: relative;
   
-  header { 
-    margin: 0 auto;
-    font-size: 1.5em;
+  header h3 {
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 2rem;
+  }
 
-    h3 {
-      padding: 1em;
+ .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .card {
+    margin: 18px 10px 40px;
+    padding: 20px;
+    background: #f4f4f4;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.2s ease-in;
+
+    img {
+      height: 80px;
     }
   }
-  
-  .skills-tech {
-    width: calc(100vw - 19vw);
-    min-height: 350px;
-    margin: 0 auto;
-    padding: 1.5em 2.5em;
-    overflow: hidden;
-    text-align: center;
 
-    .row {
-      width: 100%;
-      margin-top: 0 auto;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-
-    .skill-item {
-      margin: 0;
-      padding: 1.5em;
-      font-size: 1em;
-      border-bottom: 5px solid black;
-
-      img {
-        width: 70px;
-        max-width: 100%;
-        height: auto;
-        margin: 0 auto;
-        background-color: transparent;
-      }
-
-      p {
-        margin: 0;
-      }
-    }
+  .card:hover {
+    transform: translateY(-15px);
   }
 }
 
