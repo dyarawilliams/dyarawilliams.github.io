@@ -1036,6 +1036,11 @@ body > article {
   strong {
     color: #ea8a95;
   }
+
+  a {
+    width: 100%; 
+    text-align: center;
+  }
 }
 
 /* SKills */
@@ -1053,7 +1058,7 @@ body > article {
     font-size: 2rem;
   }
 
- .flex {
+  .flex {
     display: flex;
     justify-content: center;
     align-items: center;

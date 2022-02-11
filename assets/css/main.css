@@ -1959,6 +1959,11 @@ body > article {
   color: #ea8a95;
 }
 
+#top a {
+  width: 100%;
+  text-align: center;
+}
+
 /* SKills */
 #skills {
   width: 100%;
