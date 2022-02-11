@@ -1998,6 +1998,10 @@ body > article {
   transition: transform 0.2s ease-in;
 }
 
+#skills .card p {
+  margin-bottom: 1em;
+}
+
 #skills .card img {
   height: 80px;
 }
@@ -2100,7 +2104,7 @@ body > article {
   }
   /* Wrappers */
   .wrapper {
-    padding: 5em 0 5em 0;
+    padding: 4em 0 4em 0;
     text-align: center;
   }
   .wrapper.style4 .row-special {

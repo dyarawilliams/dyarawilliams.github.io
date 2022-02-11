@@ -1076,6 +1076,10 @@ body > article {
     text-align: center;
     transition: transform 0.2s ease-in;
 
+    p {
+      margin-bottom: 1em;
+    }
+
     img {
       height: 80px;
     }
@@ -1189,7 +1193,7 @@ body > article {
   /* Wrappers */
 
   .wrapper {
-    padding: 5em 0 5em 0;
+    padding: 4em 0 4em 0;
     text-align: center;
 
     &.style4 {
