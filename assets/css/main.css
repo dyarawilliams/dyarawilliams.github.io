@@ -1971,6 +1971,7 @@ body > article {
   color: #333;
   font-weight: bold;
   display: inline-block;
+  box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
 }
 
 #skills header h3 {
@@ -2012,9 +2013,10 @@ body > article {
 
 /* Timeline */
 #timeline {
-  padding: 3rem 1rem;
+  padding: 8rem 4rem;
   position: relative;
   text-align: center;
+  box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
 }
 
 #timeline .timeline-content {
