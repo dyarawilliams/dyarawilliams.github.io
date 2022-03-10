@@ -1,5 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700"); */
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
 /*
 	Miniport by HTML5 UP
@@ -181,7 +180,7 @@ body,
 input,
 textarea,
 select {
-  font-family: "Jost", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.85em;
   color: #888;
   font-weight: 300;
