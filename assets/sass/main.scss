@@ -1093,7 +1093,7 @@ body > article {
 
 /* Timeline */
 #timeline {
-  padding: 8rem 4rem;
+  padding: 8rem 10rem;
   position: relative;
   text-align: center;
   box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05),
@@ -1218,6 +1218,10 @@ body > article {
       margin: 0;
     }
   }
+
+  #timeline {
+    padding: 5rem 6rem;
+  }
 }
 
 /* Medium */
@@ -1232,6 +1236,10 @@ body > article {
     .image {
       margin: 0 auto 2em auto;
     }
+  }
+
+  #timeline {
+    padding: 4rem 5rem;
   }
 }
 
@@ -1421,6 +1429,10 @@ body > article {
     p {
       font-size: 1em;
     }
+  }
+
+  #timeline {
+    padding: 3rem 0;
   }
 
   #contact {
