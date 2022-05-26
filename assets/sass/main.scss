@@ -1133,6 +1133,40 @@ body > article {
   }
 }
 
+#portfolio {
+
+  .actions {
+    display: flex;
+
+    a {
+      width: 100%;
+
+      .btn{
+        color: #ea8a95 !important;
+        text-decoration: none;
+        border: 1px solid #ea8a95;
+        text-shadow: none;
+        box-shadow: none;
+        background-color: white;
+        margin: 0 auto;
+        padding: 1em;
+        font-size: 1em;
+        max-width: 100%;
+  
+        &:hover {
+          background-color: #ea8a95;
+          color: #fff !important;
+        }
+      
+        &:active {
+          background-color: #ea8a95;
+          top: 1px;
+        }
+      }
+    }
+  }
+}
+
 #contact {
   footer {
     font-size: 0.9em;
