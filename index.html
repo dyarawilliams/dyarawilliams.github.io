@@ -10,12 +10,14 @@
 	<title>D'yara Williams</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="A community-taught software engineer located in South Carolina with experience in Full Stack development. She has a passion for creating dynamic user experiences while considering Search Engine Optimization (SEO), Accessibility, and writing reusable and efficient code.">
+	<meta name="keywords" content="HTML, CSS, JavaScript, Fullstack, frontend, backend, portfolio, software engineer">
 	<link rel="stylesheet" href="assets/css/main.css" type='text/css' />
 	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" type='text/css' />
 </head>
 
 <body class="is-preload">
-
+	
 	<!-- Nav -->
 	<nav id="nav">
 		<ul class="container">
@@ -55,7 +57,7 @@
 			<section class="background">
 				<div>
 					<h3>Who Am I?</h3>
-					<p>I'm a community-taught software engineer located in South Carolina with experience in Full Stack Development. My development journey began with Java during my undergrad but I soon found my way to web development with Javascript. I have a passion for creating dynamic user experiences while considering Search Engine Optimization (SEO), Accessibility, and writing reusable and efficient code.</p>
+					<p>I'm a community-taught software engineer located in South Carolina with experience in Full Stack development. My development journey began with Java during my undergrad but I soon found my way to full stack with Javascript. I have a passion for creating dynamic user experiences while considering Search Engine Optimization (SEO), Accessibility, and writing reusable and efficient code.</p>
 					<p>I'm confident, curious, and always working on improving my skills by learning and currently seeking an opportunity to develop my skill set of creating and implementing successful full stack applications with a global reach.</p>
 				</div>
 			</section>
@@ -92,10 +94,10 @@
 						<p>MongoDB</p>
 						<img src="./images/tech-tools/mongodb.png" alt="MongoDB logo">
 					</div>
-					<!-- <div class="card">
+					<div class="card">
 						<p>PostgreSQL</p>
 						<img src="./images/tech-tools/postgreSQL.png" alt="postgreSQL logo">
-					</div> -->
+					</div>
 					<div class="card">
 						<p>SQL</p>
 						<img src="./images/tech-tools/mysql.png" alt="mySQL logo">
@@ -144,9 +146,9 @@
 					<p class="content-company">South Carolina State University</p>
 				</header>
 				<ul>
-					<li>Analyzed complex computing problem and to apply principles of computing and other
+					<li>Analyzed complex computing problem and applied principles of computing and other
 						relevant disciplines to identify solutions.</li>
-					<li>Designed, implemented, and evaluated a computing-based solution to meet a given set of
+					<li>Designed, implemented, and evaluated computing-based solution to meet a given set of
 						computing requirements in the context of the program’s discipline.</li>
 					<li>Applied design and development principles in the construction of software systems of
 						varying complexity.</li>
@@ -204,45 +206,54 @@
 	<!-- Portfolio -->
 	<article id="portfolio" class="wrapper style3">
 		<div class="container">
-			<header>
+			<header class="">
 				<h2>Here’s some projects I made recently:</h2>
 				<blockquote>Anyone who has never made a mistake has never tried anything new.<span style="display: block">--Albert Einstein</span>
 				</blockquote>
 			</header>
-			<div class="row">
-				<div class="col-4 col-6-medium col-12-small">
+			<!-- FILTER BUTTONS  -->
+			<div class="filter-buttons row text-center mt-4 mb-4 g-3">
+				<div class="buttons col-md-12">
+					<button class="btn btn-outline" type="button" onclick="filterProjects('all')">All</button>
+					<button class="btn btn-outline-primary" type="button" onclick="filterProjects('frontend')">Frontend</button>
+					<button class="btn btn-outline-primary" type="button" onclick="filterProjects('fullstack')">Full stack</button>
+					<!-- <button class="btn btn-outline-primary" type="button">Mockup</button> -->
+				</div>
+			</div>
+			<div class="projects row">
+				<div class="project col-4 col-6-medium col-12-small frontend">
 					<article class="box style2">
 						<a href="https://modernweb-jane.netlify.app/" class="image featured" target="_blank">
 							<img src="images/project-modern-website.PNG" alt="" />
 						</a>
 						<h3>Jane</h3>
-						<p>A modern website fully responsive that mimics deployment for web apps of all kinds created using HTML, CSS, and JS. </p>
+						<p>A modern website fully responsive that mimics deployment for web apps of all kinds.<hr> Tech Stack: HTML, CSS, and JS. </p>
 						<div class="actions">
 							<a href="http://modernweb-jane.netlify.app/" target="_blank"><button class="btn">Preview</button></a>
 							<a href="http://github.com/dyarawilliams/modern-website" target="_blank"><button class="btn">View Code</button></a>
 						</div>
 					</article>
 				</div>
-				<div class="col-4 col-6-medium col-12-small">
+				<div class="project col-4 col-6-medium col-12-small fullstack">
 					<article class="box style2">
 						<a href="https://whispering-dawn-44563.herokuapp.com/" class="image featured"
 							target="_blank"><img src="images/project-book-up.PNG"
 								alt="A screenshot of the Book Up project" /></a>
 						<h3>Book Up</h3>
-						<p>A REST API book directory that allows you to create and search for a book/author created using NodeJS, Express, and MongoDB. </p>
+						<p>A REST API book directory that allows you to create and search for a book/author.<hr>Tech Stack: NodeJS, Express, MongoDB</p>
 						<div class="actions">
 							<a href="http://whispering-dawn-44563.herokuapp.com/" target="_blank"><button class="btn">Preview</button></a>
 							<a href="http://github.com/dyarawilliams/book-up" target="_blank"><button class="btn">View Code</button></a>
 						</div>
 					</article>
 				</div>
-				<div class="col-4 col-6-medium col-12-small">
+				<div class="project col-4 col-6-medium col-12-small fullstack">
 					<article class="box style2">
 						<a href="https://lit-plateau-90992.herokuapp.com/signup" class="image featured"
 							target="_blank"><img src="images/project-travel-gram.PNG"
 								alt="A screenshot of travel gram app" /></a>
 						<h3>Travel Gram</h3>
-						<p>A social media app that allows you to share pictures of your travel experience.
+						<p>A social media app that allows you to share pictures of your travel experience.<hr>Tech Stack: NodeJS, Express, MongoDB
 						</p>
 						<div class="actions">
 							<a href="http://lit-plateau-90992.herokuapp.com/signup" target="_blank"><button class="btn">Preview</button></a>
@@ -250,28 +261,44 @@
 						</div>
 					</article>
 				</div>
-				<div class="col-4 col-6-medium col-12-small">
+				<div class="project col-4 col-6-medium col-12-small frontend">
 					<article class="box style2">
 						<a href="https://dyarawilliams.github.io/cleverara/" class="image featured" target="_blank"><img
 								src="images/project-cleverara.png" alt="A screenshot of Cleverara" /></a>
 						<h3>Cleverara</h3>
-						<p>This is a multi-purpose responsive layout created with Bootstrap 5 and SaSS.</p>
+						<p>This is a multi-purpose responsive layout created with Bootstrap 5 and Sass.</p>
 						<div class="actions">
 							<a href="http://dyarawilliams.github.io/cleverara/" target="_blank"><button class="btn">Preview</button></a>
 							<a href="http://github.com/dyarawilliams/cleverara" target="_blank"><button class="btn">View Code</button></a>
 						</div>
 					</article>
 				</div>
-				<!-- <div class="col-4 col-6-medium col-12-small">
+				<div class="project col-4 col-6-medium col-12-small frontend">
 					<article class="box style2">
 						<a href="https://dyarawilliams.github.io/JavaScript30/" class="image featured"
 							target="_blank"><img src="images/project-javascript30.png"
 								alt="A screenshot of my JavaScript 30 challenge" /></a>
-						<h3><a href="#" target="_blank">JavaScript30</a></h3>
-						<p>This is a website of my current progress on the JavaScript30 challenge organized by WesBos.
-						</p>
+						<h3>JavaScript30</h3>
+						<p>This is a website of my current progress on the JavaScript30 challenge organized by WesBos.</p>
+						<div class="actions">
+							<a href="http://dyarawilliams.github.io/JavaScript30/" target="_blank"><button class="btn">Preview</button></a>
+							<a href="http://github.com/dyarawilliams/JavaScript30" target="_blank"><button class="btn">View Code</button></a>
+						</div>
 					</article>
-				</div> -->
+				</div>
+				<div class="project col-4 col-6-medium col-12-small fullstack">
+					<article class="box style2">
+						<a href="#" class="image featured"
+							target="_blank"><img src="images/study-buddy.gif"
+								alt="A screenshot of Study Buddy app" /></a>
+						<h3>Study Buddy</h3>
+						<p>An app to keep track of your study notes that allows you see all your assignments and deadlines in a single place.<hr>Tech Stack: NodeJS, Express, MongoDB</p>
+						<div class="actions">
+							<!-- <a href="#" target="_blank"><button class="btn">Preview</button></a> -->
+							<a href="http://github.com/dyarawilliams/study-buddy" target="_blank"><button class="btn">View Code</button></a>
+						</div>
+					</article>
+				</div>
 			</div>
 			<footer>
 				<p>This is just the beginning there is more to come in the future.!</p>
@@ -344,6 +371,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/filter.js"></script>
 	<!-- <script src="assets/fontawesome/js/all.js"></script> -->
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 

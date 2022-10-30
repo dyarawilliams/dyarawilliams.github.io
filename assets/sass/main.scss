@@ -1175,6 +1175,42 @@ body > article {
 }
 
 #portfolio {
+
+  header {
+    margin-bottom: 2em;
+  }
+
+  .filter-buttons {
+    padding-bottom: 4em;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      text-shadow: none;
+      color: #000 !important;
+      background: transparent;
+      box-shadow: inset 0px 0px 0px 1px #ea8a95, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
+    }
+
+    button:hover {
+      background: #ea8a95;
+      color: white !important;
+    }
+  }
+
+  .project {
+    display: none;
+
+    hr, p {
+      margin: 0;
+      padding: 0.5em 0;
+    }
+  }
+
+  .show {
+    display: block;
+  }
+
   .actions {
     display: flex;
 
