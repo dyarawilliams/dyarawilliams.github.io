@@ -7,6 +7,12 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
 
+
+@font-face {
+    font-family: Walto;
+    src: url("/assets/webfonts/waltograph42.otf") format("opentype");
+}
+
 /*
 	Miniport by HTML5 UP
 	html5up.net | @ajlkn
@@ -1021,7 +1027,14 @@ body > article {
   }
 
   h1 {
-    margin-top: 0.35em;
+    margin: 0.25em 0;
+
+    .intro-name {
+      line-height: 2;
+      font-family: 'Walto', sans-serif;
+      letter-spacing: 2px;
+      font-size: 1.5em;
+    }
   }
 
   p {
@@ -1083,6 +1096,8 @@ body > article {
       color: #f4f4f4;
       font-size: 2rem;
       letter-spacing: 3px;
+      font-family: 'Walto', sans-serif;
+      font-size: 2em;
     }
   }
 
