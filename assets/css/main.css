@@ -1435,10 +1435,6 @@ input[type=submit],
 input[type=reset],
 button,
 .button {
-  background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-  background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-  background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-  background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
   -moz-transition: background-color .2s ease-in-out;
   -webkit-transition: background-color .2s ease-in-out;
   -ms-transition: background-color .2s ease-in-out;
@@ -1819,7 +1815,6 @@ body > article {
 
 #top {
   padding: 10em 0 10em 0;
-  text-align: left;
 }
 #top .image {
   border-radius: 100%;
@@ -1872,11 +1867,6 @@ body > article {
   font-weight: bold;
   display: inline-block;
   box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.03);
-  background-image: url("../../assets/css/images/bg-keyboard.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
 }
 #skills header {
   margin-bottom: 0 !important;
@@ -1887,7 +1877,6 @@ body > article {
   color: #f4f4f4;
   font-size: 2rem;
   letter-spacing: 3px;
-  font-family: "Walto", sans-serif;
   font-size: 2em;
 }
 #skills .container {
@@ -1977,9 +1966,6 @@ body > article {
 }
 #portfolio .filter-buttons button {
   text-shadow: none;
-  color: #000 !important;
-  background: transparent;
-  box-shadow: inset 0px 0px 0px 1px #ea8a95, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
 }
 #portfolio .filter-buttons button:hover {
   background: #ea8a95;
@@ -1997,29 +1983,12 @@ body > article {
 }
 #portfolio .actions {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 #portfolio .actions a {
   width: 100%;
-}
-#portfolio .actions a .btn {
-  color: #ea8a95 !important;
-  text-decoration: none;
-  border: 1px solid #ea8a95;
-  text-shadow: none;
-  box-shadow: none;
-  background-color: white;
-  margin: 0 auto;
-  padding: 1em;
-  font-size: 1em;
-  max-width: 100%;
-}
-#portfolio .actions a .btn:hover {
-  background-color: #ea8a95;
-  color: #fff !important;
-}
-#portfolio .actions a .btn:active {
-  background-color: #ea8a95;
-  top: 1px;
+  font-size: 0.8em;
 }
 
 #contact footer {
