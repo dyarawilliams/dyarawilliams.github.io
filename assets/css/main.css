@@ -2080,6 +2080,7 @@ body > article {
 }
 #services header {
   text-align: center;
+  margin-bottom: 0;
 }
 #services header h5 {
   color: #ea8a95;
@@ -2176,7 +2177,7 @@ body > article {
     font-size: 11pt;
   }
   header {
-    margin: 0 0 4em 0;
+    margin: 0 0 2em 0;
   }
   /* Wrappers */
   .wrapper {
@@ -2242,7 +2243,7 @@ body > article {
     line-height: 1.25em;
   }
   header {
-    margin: 0 0 2em 0;
+    margin: 0 0 1.5em 0;
   }
   header > p {
     font-size: 1.25em;
