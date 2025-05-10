@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
-@import url("fontawesome-all.min.css");
-@font-face {
-  font-family: Walto;
-  src: url("/assets/webfonts/waltograph42.otf") format("opentype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 /*
 	Miniport by HTML5 UP
 	html5up.net | @ajlkn
@@ -1567,17 +1563,20 @@ ul.social li a:before {
   text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
   width: 48px;
 }
-ul.social li a.fa-twitter {
-  background-color: #2daae4;
+ul.social li a.fa-x-twitter {
+  background-color: #ffffff;
+}
+ul.social li a.fa-bluesky {
+  background-color: #048bff;
 }
 ul.social li a.fa-facebook-f {
-  background-color: #3c5a98;
+  background-color: #1877F2;
 }
 ul.social li a.fa-dribbble {
   background-color: #c4376b;
 }
-ul.social li a.fa-linkedin-in {
-  background-color: #006599;
+ul.social li a.fa-linkedin {
+  background-color: #0073B1;
 }
 ul.social li a.fa-tumblr {
   background-color: #51718a;
@@ -1586,7 +1585,7 @@ ul.social li a.fa-google-plus {
   background-color: #da2713;
 }
 ul.social li a.fa-github {
-  background-color: #fafafa;
+  background-color: #FAFBFC;
 }
 ul.social li a.fa-rss {
   background-color: #f2600b;
@@ -1604,7 +1603,7 @@ ul.social li a.fa-soundcloud {
   background-color: #fe5419;
 }
 ul.social li a.fa-youtube {
-  background-color: #bf2e25;
+  background-color: ff0000;
 }
 ul.social li a.fa-blogger {
   background-color: #ff6501;
@@ -1663,19 +1662,6 @@ ul.actions li:first-child {
 /* Icons */
 .icon {
   text-decoration: none;
-  text-decoration: none;
-}
-.icon:before {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
-  text-transform: none !important;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 400;
 }
 .icon:before {
   font-size: 1.25em;
@@ -1685,9 +1671,6 @@ ul.actions li:first-child {
 }
 .icon.solid:before {
   font-weight: 900;
-}
-.icon.brands:before {
-  font-family: "Font Awesome 5 Brands";
 }
 .icon.featured {
   color: #ea8a95;
@@ -1820,12 +1803,15 @@ body > article {
 #top .image img {
   border-radius: 100%;
 }
+#top header {
+  margin-bottom: 0;
+}
 #top h1 {
   margin: 0;
 }
 #top h1 .intro-name {
   line-height: 2;
-  font-family: "Walto", sans-serif;
+  font-family: "Great Vibes", cursive;
   letter-spacing: 2px;
   font-size: 1.5em;
 }
@@ -2210,6 +2196,14 @@ body > article {
   }
   #top .image {
     margin: 0 auto 2em auto;
+    width: 20em;
+    height: 20em;
+  }
+  #top h1 {
+    font-size: 2.5em;
+  }
+  #top .intro-name {
+    font-size: 1.5em;
   }
   #timeline {
     padding: 4rem 5rem;
