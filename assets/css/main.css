@@ -1603,7 +1603,7 @@ ul.social li a.fa-soundcloud {
   background-color: #fe5419;
 }
 ul.social li a.fa-youtube {
-  background-color: ff0000;
+  background-color: #ff0000;
 }
 ul.social li a.fa-blogger {
   background-color: #ff6501;
@@ -1731,23 +1731,28 @@ ul.actions li:first-child {
 /* Nav */
 #nav {
   background-color: #ea8a95;
-  text-align: center;
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   z-index: 10000;
   cursor: default;
-  height: 3.5em;
-  line-height: 3.5em;
+  height: 90px;
+}
+#nav .navbar {
+  height: 90px;
+  display: flex;
+  align-items: center;
 }
 #nav ul {
   margin-bottom: 0;
   list-style: none;
   padding-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #nav li {
-  display: inline-block;
   padding-left: 0;
 }
 #nav a {

@@ -761,7 +761,7 @@ ul.social {
       }
 
       &.fa-youtube {
-        background-color: ff0000;
+        background-color: #ff0000;
       }
 
       &.fa-blogger {
@@ -933,24 +933,32 @@ ul.actions {
 
 #nav {
   background-color: #ea8a95;
-  text-align: center;
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   z-index: 10000;
   cursor: default;
-  height: 3.5em;
-  line-height: 3.5em;
+  height: 90px;
+  // line-height: 3.5em;
+
+  .navbar {
+    height: 90px;
+    display: flex;
+    align-items: center;
+  }
 
   ul {
     margin-bottom: 0;
     list-style: none;
     padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   li {
-    display: inline-block;
+    // display: inline-block;
     padding-left: 0;
   }
 
