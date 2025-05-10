@@ -5,13 +5,7 @@
 @import "libs/breakpoints";
 @import "libs/html-grid";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
-@import url("fontawesome-all.min.css");
-
-
-@font-face {
-  font-family: Walto;
-  src: url("/assets/webfonts/waltograph42.otf") format("opentype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 /*
 	Miniport by HTML5 UP
@@ -714,20 +708,24 @@ ul.social {
         width: 48px;
       }
 
-      &.fa-twitter {
-        background-color: #2daae4;
+      &.fa-x-twitter {
+        background-color: #ffffff;
+      }
+
+      &.fa-bluesky {
+        background-color: #048bff;
       }
 
       &.fa-facebook-f {
-        background-color: #3c5a98;
+        background-color: #1877F2;
       }
 
       &.fa-dribbble {
         background-color: #c4376b;
       }
 
-      &.fa-linkedin-in {
-        background-color: #006599;
+      &.fa-linkedin {
+        background-color: #0073B1;
       }
 
       &.fa-tumblr {
@@ -739,7 +737,7 @@ ul.social {
       }
 
       &.fa-github {
-        background-color: #fafafa;
+        background-color: #FAFBFC;
       }
 
       &.fa-rss {
@@ -763,7 +761,7 @@ ul.social {
       }
 
       &.fa-youtube {
-        background-color: #bf2e25;
+        background-color: ff0000;
       }
 
       &.fa-blogger {
@@ -841,7 +839,7 @@ ul.actions {
 /* Icons */
 
 .icon {
-  @include icon;
+  // @include icon;
   text-decoration: none;
 
   &:before {
@@ -858,11 +856,11 @@ ul.actions {
     }
   }
 
-  &.brands {
-    &:before {
-      font-family: "Font Awesome 5 Brands";
-    }
-  }
+  // &.brands {
+  //   &:before {
+  //     font-family: "Font Awesome 5 Brands";
+  //   }
+  // }
 
   &.featured {
     color: #ea8a95;
@@ -1013,12 +1011,16 @@ body>article {
     }
   }
 
+  header {
+      margin-bottom: 0;
+  }
+
   h1 {
     margin: 0;
 
     .intro-name {
       line-height: 2;
-      font-family: 'Walto', sans-serif;
+      font-family: "Great Vibes", cursive;
       letter-spacing: 2px;
       font-size: 1.5em;
     }
@@ -1485,6 +1487,16 @@ body>article {
 
     .image {
       margin: 0 auto 2em auto;
+      width: 20em;
+      height: 20em;
+    }
+
+    h1 {
+      font-size: 2.5em;
+    }
+
+    .intro-name {
+      font-size: 1.5em;
     }
   }
 
