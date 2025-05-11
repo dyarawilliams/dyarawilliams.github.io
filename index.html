@@ -35,7 +35,9 @@
 				<li><a href="#contact">Contact</a></li>
 				<li></li>
 			</ul>
-			<i class="fa-solid fa-moon fa-xl"></i>
+			<div>
+				<i class="fa-solid fa-sun fa-xl" id="toggleDarkMode"></i>
+			</div>
 		</div>
 	</nav>
 
@@ -63,19 +65,12 @@
 	<article id="work" class="wrapper style2">
 		<div class="container">
 			<header>
-				<h2>Here's a few things about me: </h2>
+				<h2>About me: </h2>
 			</header>
 			<section class="background">
 				<div>
-					<h3>Who Am I?</h3>
-					<p>I'm a community-taught software engineer located in South Carolina with experience in Full Stack
-						Web Development. My development journey began with Java but I eventually found my way to
-						Javascript. My current stack is the MERN stack (MongoDB, Express, ReactJS, and NodeJS). I have a
-						passion for creating dynamic user experiences while considering Search Engine Optimization
-						(SEO), Accessibility, and writing reusable and efficient code.</p>
-					<p>I'm confident, curious, and always working on improving my skills by learning and currently
-						seeking an opportunity to develop my skill set of creating and implementing successful full
-						stack applications with a global reach.</p>
+					<p>I'm a community-taught software engineer located in South Carolina with experience in Full Stack Web Development. My development journey began with Java but I eventually found my way to Javascript. My current stack is the MERN stack (MongoDB, Express, ReactJS, and NodeJS). I have a passion for creating dynamic user experiences while considering Search Engine Optimization(SEO), Accessibility, and writing reusable and efficient code.</p>
+					<p>I'm confident, curious, and always working on improving my skills by learning and currently seeking an opportunity to develop my skill set of creating and implementing successful full stack applications with a global reach.</p>
 				</div>
 			</section>
 			<section id="skills" class="skills">
@@ -139,7 +134,7 @@
 	<!-- Timeline Section -->
 	<section id="timeline">
 		<header>
-			<h3 class="timeline-heading">D'yara's Timeline</h3>
+			<h2 class="timeline-heading">D'yara's Timeline</h2>
 		</header>
 		<div class="timeline-container">
 			<ul>
@@ -531,6 +526,7 @@
 	</article>
 
 	<!-- Scripts -->
+	<script src="assets/js/darkmode.js" defer></script>
 	<script src="assets/js/jquery.min.js" defer></script>
 	<script src="assets/js/jquery.scrolly.min.js" defer></script>
 	<script src="assets/js/browser.min.js" defer></script>
@@ -538,12 +534,12 @@
 	<script src="assets/js/util.js" defer></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/filter.js" defer></script>
-	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11" defer></script>
+	<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
 	<script>
 		var typed = new Typed('.intro-title', {
 			strings: ['a Software Engineer', 'a Full-Stack Developer', 'a freelancer', 'a cat mom'],
-			typeSpeed: 80,
+			typeSpeed: 50,
 			backSpeed: 50,
 			loop: true
 		});
