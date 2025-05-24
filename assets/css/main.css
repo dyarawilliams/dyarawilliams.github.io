@@ -1977,17 +1977,18 @@ body > article {
   text-decoration: none;
 }
 #timeline .timeline-container ul li .date {
+  padding: 0.5em 1em;
   position: absolute;
   top: -40px;
   left: 20px;
-  width: 150px;
+  width: 50%;
   height: 50px;
   border-radius: 20px;
   color: var(--white);
   background-color: var(--primary);
   display: grid;
   place-items: center;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 #timeline .timeline-container ul li .circle {
   width: 30px;

@@ -1250,10 +1250,11 @@ body>article {
         }
 
         .date {
+          padding: 0.5em 1em;
           position: absolute;
           top: -40px;
           left: 20px;
-          width: 150px;
+          width: 50%;
           height: 50px;
           border-radius: 20px;
           color: var(--white);
@@ -1261,7 +1262,7 @@ body>article {
           background-color: var(--primary);
           display: grid;
           place-items: center;
-          font-size: 14px;
+          font-size: 0.9rem;
         }
 
         .circle {
