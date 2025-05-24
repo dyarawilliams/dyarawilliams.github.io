@@ -1854,6 +1854,12 @@ body.dark-mode {
       color: var(--black) !important;
     }
 
+    .icon {
+
+      &.featured {
+        color: var(--black);
+      }
+    }
   }
 
   .box {

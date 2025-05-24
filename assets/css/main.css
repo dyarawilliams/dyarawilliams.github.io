@@ -2446,6 +2446,9 @@ body.dark-mode #services {
 body.dark-mode #services p {
   color: var(--black) !important;
 }
+body.dark-mode #services .icon.featured {
+  color: var(--black);
+}
 body.dark-mode .box {
   background-color: var(--primary);
   color: var(--white);
