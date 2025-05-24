@@ -1820,6 +1820,9 @@ body > article {
 #top p a {
   color: inherit;
 }
+#top a {
+  width: 100%;
+}
 
 /* Work */
 #work .background h3 {
@@ -1936,7 +1939,6 @@ body > article {
   float: left;
   clear: right;
   transform: translateX(-30px);
-  text-align: right;
 }
 #timeline .timeline-container ul li:nth-child(odd) .circle {
   left: unset;
@@ -1978,11 +1980,11 @@ body > article {
   position: absolute;
   top: -40px;
   left: 20px;
-  width: 135px;
-  height: 35px;
+  width: 150px;
+  height: 50px;
   border-radius: 20px;
   color: var(--white);
-  background-image: linear-gradient(to right, var(--primary), #8d769a);
+  background-color: var(--primary);
   display: grid;
   place-items: center;
   font-size: 14px;

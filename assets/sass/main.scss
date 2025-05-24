@@ -1062,6 +1062,10 @@ body>article {
       color: inherit;
     }
   }
+
+  a {
+      width: 100%;
+    }
 }
 
 /* Work */
@@ -1199,7 +1203,6 @@ body>article {
           float: left;
           clear: right;
           transform: translateX(-30px);
-          text-align: right;
 
           .circle {
             left: unset;
@@ -1229,8 +1232,6 @@ body>article {
           color: var(--primary);
         }
 
-
-
         h5 {
           font-style: italic;
         }
@@ -1252,11 +1253,12 @@ body>article {
           position: absolute;
           top: -40px;
           left: 20px;
-          width: 135px;
-          height: 35px;
+          width: 150px;
+          height: 50px;
           border-radius: 20px;
           color: var(--white);
-          background-image: linear-gradient(to right, var(--primary), #8d769a);
+          // background-image: linear-gradient(to right, var(--primary), #8d769a);
+          background-color: var(--primary);
           display: grid;
           place-items: center;
           font-size: 14px;
